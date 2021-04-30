@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>My Errors</title>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li class="logo">MY ERROR</li>
+      <a href="index.html"><li class="operations" >Register</li></a>
+      <a href="search.html"><li class="operations">Search</li></a>
+      <!-- <a href="recordOperations.html"><li class="operations">Record operations</li></a>
+      <a href="statistics.html"><li class="operations">Statistics</li></a> -->
+    </ul>
+    <div class="checkboxCoutom">
+      <input type="checkbox" id="checkboxCoutomSearsh" class="checkboxCoutomSearsh" >
+      <label for="checkboxCoutomSearsh">Custom Search:</label>
+    </div>
+    <div class="registerContianer">
+
+      <form class="searchForm" action="search.html" method="post" hidden>
+        <div class="divInput">
+          <label for="searchErrorMessage">Error Message:</label>
+          <textarea name="name" rows="10" cols="100" id="searchErrorMessage"></textarea>
+          <label for="searchProgrammingLanguagelist">Programming Language:</label>
+          <select class="programmingLanguagelist" name="" id="searchProgrammingLanguagelist">
+            <option value="None">None</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="python">python</option>
+            <option value="C++">C++</option>
+            <option value="PHP">PHP</option>
+            <option value="Swift">Swift</option>
+            <option value="VisualBasic">Visual Basic</option>
+            <option value="R">R</option>
+            <option value="SQL">SQL</option>
+            <option value="Go">Go</option>
+            <option value="Ruby">Ruby</option>
+            <option value="AssemblyLanguage">Assembly Language</option>
+            <option value="MATLAB">MATLAB</option>
+            <option value="Prel">Prel</option>
+            <option value="PL/SQL">PL/SQL</option>
+            <option value="Scratch">Scratch</option>
+            <option value="ClassicVisualBasic">Classic Visual Basic</option>
+            <option value="Rust">Rust</option>
+            <option value="Objective-C">Objective-C</option>
+            <option value="Delphi/ObjectPascal">Delphi/Object Pascal</option>
+            <option value="D">D</option>
+            <option value="Lisp">Lisp</option>
+            <option value="Dart">Dart</option>
+            <option value="SAS">SAS</option>
+            <option value="Transact-SQL">Transact-SQL</option>
+            <option value="Logo">Logo</option>
+            <option value="COBOL">COBOL</option>
+            <option value="Kotlin">Kotlin</option>
+            <option value="Groovy">Groovy</option>
+            <option value="Scala">Scala</option>
+            <option value="Julia">Julia</option>
+            <option value="ABAP">ABAP</option>
+            <option value="PowerShell">PowerShell</option>
+            <option value="OpenEdgeABL">OpenEdge ABL</option>
+            <option value="Fortran">Fortran</option>
+            <option value="Lua">Lua</option>
+            <option value="VBScript">VBScript</option>
+            <option value="Ada">Ada</option>
+            <option value="(Visual)FoxPro">(Visual) FoxPro</option>
+            <option value="ML">ML</option>
+            <option value="LabVIEW">LabVIEW</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="Apex">Apex</option>
+            <option value="Haskell">Haskell</option>
+            <option value="Scheme">Scheme</option>
+            <option value="Prolog">Prolog</option>
+            <option value="ActionScript">ActionScript</option>
+            <option value="Bash">Bash</option>
+          </select>
+          <label for="searchDate">Date:</label>
+          <input type="date" name="date" value="" id="searchDate">
+        </div>
+        <div class="divSave">
+          <button class="btnSave" type="submit" name="button">search</button>
+          <button class="btnreset" type="button" name="button">Reset</button>
+        </div>
+      </form>
+
+      <div id="displayError">
+      </div>
+    </div>
+    <div class="">
+      <table class="tableSearsh" id="tableSearsh">
+        <thead>
+          <tr>
+            <th>Error Message</th>
+            <th>Fix Error</th>
+            <th>Programming Language</th>
+            <th>Date Register</th>
+            <th>Id</th>
+            <th>View</th>
+          </tr>
+        </thead>
+        <tbody id="tbodySearsh">
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <script src="ererrs-class.js"></script>
+    <script src="search.js"></script>
+  </body>
+</html>

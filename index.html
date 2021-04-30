@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>My Errors</title>
+  </head>
+  <body>
+      <ul class="navbar">
+        <li class="logo">MY ERROR</li>
+        <a href="index.html"><li class="operations" >Register</li></a>
+        <a id="8" href="search.html"><li class="operations">Search</li></a>
+        <!-- <a href="recordOperations.html"><li class="operations">Record operations</li></a>
+        <a href="statistics.html"><li class="operations">Statistics</li></a> -->
+      </ul>
+      <div class="registerContianer">
+        <form class="registerForm" action="index.html" method="post">
+          <div class="divInput">
+            <label for="errorMessage">Error Message:</label>
+            <textarea name="name" rows="10" cols="100" id="errorMessage"></textarea>
+            <!-- <input type="text" name="" value="" id="errorMessage"> -->
+          </div>
+          <div class="divInput">
+            <label for="fixErerr">Fix the Error:</label>
+            <textarea name="name" rows="10" cols="100" id="fixErerr"></textarea>
+
+          </div>
+          <div class="divInput">
+            <label for="programmingLanguagelist">Programming Language:</label>
+
+            <select class="programmingLanguagelist" name="" id="programmingLanguagelist">
+              <option value="None">None</option>
+              <option value="Java">Java</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="python">python</option>
+              <option value="C++">C++</option>
+              <option value="PHP">PHP</option>
+              <option value="Swift">Swift</option>
+              <option value="VisualBasic">Visual Basic</option>
+              <option value="R">R</option>
+              <option value="SQL">SQL</option>
+              <option value="Go">Go</option>
+              <option value="Ruby">Ruby</option>
+              <option value="AssemblyLanguage">Assembly Language</option>
+              <option value="MATLAB">MATLAB</option>
+              <option value="Prel">Prel</option>
+              <option value="PL/SQL">PL/SQL</option>
+              <option value="Scratch">Scratch</option>
+              <option value="ClassicVisualBasic">Classic Visual Basic</option>
+              <option value="Rust">Rust</option>
+              <option value="Objective-C">Objective-C</option>
+              <option value="Delphi/ObjectPascal">Delphi/Object Pascal</option>
+              <option value="D">D</option>
+              <option value="Lisp">Lisp</option>
+              <option value="Dart">Dart</option>
+              <option value="SAS">SAS</option>
+              <option value="Transact-SQL">Transact-SQL</option>
+              <option value="Logo">Logo</option>
+              <option value="COBOL">COBOL</option>
+              <option value="Kotlin">Kotlin</option>
+              <option value="Groovy">Groovy</option>
+              <option value="Scala">Scala</option>
+              <option value="Julia">Julia</option>
+              <option value="ABAP">ABAP</option>
+              <option value="PowerShell">PowerShell</option>
+              <option value="OpenEdgeABL">OpenEdge ABL</option>
+              <option value="Fortran">Fortran</option>
+              <option value="Lua">Lua</option>
+              <option value="VBScript">VBScript</option>
+              <option value="Ada">Ada</option>
+              <option value="(Visual)FoxPro">(Visual) FoxPro</option>
+              <option value="ML">ML</option>
+              <option value="LabVIEW">LabVIEW</option>
+              <option value="TypeScript">TypeScript</option>
+              <option value="Apex">Apex</option>
+              <option value="Haskell">Haskell</option>
+              <option value="Scheme">Scheme</option>
+              <option value="Prolog">Prolog</option>
+              <option value="ActionScript">ActionScript</option>
+              <option value="Bash">Bash</option>
+            </select>
+          </div>
+          <div class="divSave">
+            <button class="btnSave" type="submit" name="button">Save</button>
+          </div>
+
+
+
+        </form>
+      </div>
+      <div class="showErrorMessage">
+        <img id="imgRegasterDone" src="images/imgy.png" alt="" hidden>
+            <h3  id="showErrorMessage"></h3>
+            <div class="showErrorMessageBtns">
+              <button class="viewBtn" type="button" name="button" hidden>View</button>
+              <button class="btnBack" type="button" name="button" hidden>Back</button>
+            </div>
+      </div>
+
+
+      <script src="ererrs-class.js"></script>
+      <script src="app.js"></script>
+  </body>
+</html>
